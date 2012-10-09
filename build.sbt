@@ -11,7 +11,7 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "play" %% "play" % "2.1-SNAPSHOT"
+  "play" %% "play" % "2.1-10082012"
 )
 
 organization := "jp.t2v"
