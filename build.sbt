@@ -6,9 +6,9 @@ resolvers ++= Seq(
   "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 )
 
-libraryDependencies ++= Seq(
-  "play" % "play_2.10" % "2.1-10082012"
-)
+//libraryDependencies ++= Seq(
+//  "play" % "play_2.10" % "2.1-10082012"
+//)
 
 organization := "jp.t2v"
 
