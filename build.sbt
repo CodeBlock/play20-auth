@@ -16,6 +16,10 @@ libraryDependencies ++= Seq(
 
 organization := "jp.t2v"
 
+scalaVersion := "2.10.0-M7"
+
+scalaBinaryVersion := "2.10.0-M7"
+
 publishTo := sys.env.get("LOCAL_MAVEN_REPO").map { dir =>
   Resolver.file("maven-repo", file(dir))(Patterns(true, Resolver.mavenStyleBasePattern))
 }
